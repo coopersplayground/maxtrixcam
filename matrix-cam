@@ -1,1 +1,331 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKbWF0cml4LWNhbSAtIFdhdGNoIHNlY3VyaXR5IGNhbWVyYXMgaW4gTWF0cml4LXN0eWxlIEFTQ0lJIGFydC4KCkZhbGxpbmcga2F0YWthbmEgcmFpbiBvdmVyIGEgbGl2ZSBjYW1lcmEgZmVlZCwgcmVuZGVyZWQgaW4geW91ciB0ZXJtaW5hbC4KU3VwcG9ydHMgUlRTUCBuZXR3b3JrIGNhbWVyYXMgYW5kIFVTQiB3ZWJjYW1zICh2NGwyKS4KQXV0by1kZXRlY3RzIEZyaWdhdGUgTlZSIGNhbWVyYXMgb3IgdXNlIG1hbnVhbCBzb3VyY2VzLgoKVXNhZ2U6IG1hdHJpeC1jYW0KIiIiCmltcG9ydCBzdWJwcm9jZXNzLCBzeXMsIG9zLCByZSwgdGltZSwgcmFuZG9tLCB0aHJlYWRpbmcsIHNodXRpbCwganNvbgoKU0VUVElOR1NfRklMRSA9IG9zLnBhdGguZXhwYW5kdXNlcigifi8ubWF0cml4LWNhbS5qc29uIikKQ0hBUlMgPSAiIC46LT0rKiMlQCIKTUFUUklYX0NIQVJTID0gIu+9se+9su+9s++9tO+9te+9tu+9t++9uO+9ue+9uu+9u++9vO+9ve+9vu+9v+++gO++ge++gu++g+++hO++he++hu++h+++iO++ie++iu++i+++jO++je++ju++j+++kO++ke++ku++k+++lO++le++lu++l+++mO++me++mu++m+++nO++nTAxMjM0NTY3ODkkI0AlJiorPTw+P1oiClJBSU5fRlBTID0gMTAKCkdSRUVOID0gIlwwMzNbOTJtIgpCUklHSFQgPSAiXDAzM1s5NzsxbSIKUkVTRVQgPSAiXDAzM1swbSIKCkRFRkFVTFRTID0gewogICAgImZlZWRfZnBzIjogNSwKICAgICJyYWluX2RlbnNpdHkiOiAwLjcsCiAgICAidHJhaWwiOiA1LAogICAgIm5hbWVzIjoge30sCiAgICAiZnJpZ2F0ZV9jb25maWciOiAiIiwKICAgICJzb3VyY2VzIjoge30sCn0KCmRlZiBsb2FkX3NldHRpbmdzKCk6CiAgICBzID0gZGljdChERUZBVUxUUykKICAgIHRyeToKICAgICAgICBzLnVwZGF0ZShqc29uLmxvYWQob3BlbihTRVRUSU5HU19GSUxFKSkpCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHBhc3MKICAgIHJldHVybiBzCgpkZWYgc2F2ZV9zZXR0aW5ncyhzKToKICAgIHRyeToKICAgICAgICBqc29uLmR1bXAocywgb3BlbihTRVRUSU5HU19GSUxFLCAidyIpLCBpbmRlbnQ9MSkKICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgcGFzcwoKU0VUVElOR1MgPSBsb2FkX3NldHRpbmdzKCkKCmJhc2VfZ3JpZCA9IE5vbmUKZ3JpZF9sb2NrID0gdGhyZWFkaW5nLkxvY2soKQpzdG9wX2ZsYWcgPSBGYWxzZQoKZGVmIGdldF9jYW1lcmFzKCk6CiAgICAiIiJSZXR1cm4ge25hbWU6IChraW5kLCBzb3VyY2UpfS4gTWFudWFsIHNvdXJjZXMgZmlyc3QsIHRoZW4gRnJpZ2F0ZSBhdXRvLWRldGVjdC4iIiIKICAgIGNhbXMgPSB7fQogICAgIyBtYW51YWwgc291cmNlcyBmcm9tIHNldHRpbmdzCiAgICBmb3IgbmFtZSwgc3JjIGluIFNFVFRJTkdTLmdldCgic291cmNlcyIsIHt9KS5pdGVtcygpOgogICAgICAgIGtpbmQgPSBzcmMuZ2V0KCJraW5kIiwgInJ0c3AiKQogICAgICAgIGlmIGtpbmQgPT0gInJ0c3AiIGFuZCBzcmMuZ2V0KCJ1cmwiKToKICAgICAgICAgICAgY2Ftc1tuYW1lXSA9ICgicnRzcCIsIHNyY1sidXJsIl0pCiAgICAgICAgZWxpZiBraW5kID09ICJ2NGwyIiBhbmQgc3JjLmdldCgiZGV2aWNlIik6CiAgICAgICAgICAgIGNhbXNbbmFtZV0gPSAoInY0bDIiLCBzcmNbImRldmljZSJdKQogICAgIyBGcmlnYXRlIGF1dG8tZGV0ZWN0CiAgICBjZmcgPSBTRVRUSU5HUy5nZXQoImZyaWdhdGVfY29uZmlnIikgb3Igb3MuZW52aXJvbi5nZXQoIkZSSUdBVEVfQ09ORklHIiwgIiIpCiAgICBpZiBjZmcgYW5kIG9zLnBhdGguZXhpc3RzKGNmZyk6CiAgICAgICAgdHJ5OgogICAgICAgICAgICB0eHQgPSBvcGVuKGNmZykucmVhZCgpCiAgICAgICAgICAgIG0gPSByZS5zZWFyY2gociJnbzJydGM6XHMqXG5ccypzdHJlYW1zOlxzKlxuKCg/OlxzK1x3KzouKlxuKD86XHMrLSAuKlxuPykqKSspIiwgdHh0KQogICAgICAgICAgICBpZiBtOgogICAgICAgICAgICAgICAgZm9yIGNtIGluIHJlLmZpbmRpdGVyKHIiXlxzezR9KFx3Kyk6XHMqXG5ccystXHMrKHJ0c3A6Ly9cUyspIiwgbS5ncm91cCgxKSwgcmUuTSk6CiAgICAgICAgICAgICAgICAgICAgaWYgY20uZ3JvdXAoMSkgbm90IGluIGNhbXM6CiAgICAgICAgICAgICAgICAgICAgICAgIGNhbXNbY20uZ3JvdXAoMSldID0gKCJydHNwIiwgY20uZ3JvdXAoMikpCiAgICAgICAgICAgIGNtMiA9IHJlLnNlYXJjaChyIl5jYW1lcmFzOlxzKlxuKC4qPykoPz1eW2Etel9dKzpccyokfFxaKSIsIHR4dCwgcmUuTSB8IHJlLlMpCiAgICAgICAgICAgIGlmIGNtMjoKICAgICAgICAgICAgICAgIGJsb2NrcyA9IHJlLnNwbGl0KHIiKD9tKV4oPz0gIFx3KzopIiwgY20yLmdyb3VwKDEpKQogICAgICAgICAgICAgICAgZm9yIGIgaW4gYmxvY2tzOgogICAgICAgICAgICAgICAgICAgIG5tID0gcmUubWF0Y2gociIgIChcdyspOiIsIGIpCiAgICAgICAgICAgICAgICAgICAgcG0gPSByZS5zZWFyY2gociIvZGV2L3Y0bC9cUysiLCBiKQogICAgICAgICAgICAgICAgICAgIGlmIG5tIGFuZCBwbSBhbmQgbm0uZ3JvdXAoMSkgbm90IGluIGNhbXM6CiAgICAgICAgICAgICAgICAgICAgICAgIGNhbXNbbm0uZ3JvdXAoMSldID0gKCJ2NGwyIiwgcG0uZ3JvdXAoMCkpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICBwcmludChmIkNvdWxkIG5vdCByZWFkIEZyaWdhdGUgY29uZmlnOiB7ZX0iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICByZXR1cm4gY2FtcwoKZGVmIGRpc3BsYXlfbmFtZShuYW1lKToKICAgIHJldHVybiBTRVRUSU5HU1sibmFtZXMiXS5nZXQobmFtZSwgbmFtZSkKCmRlZiB0ZXJtX3NpemUoKToKICAgIHMgPSBzaHV0aWwuZ2V0X3Rlcm1pbmFsX3NpemUoKDIwMCwgNTApKQogICAgcmV0dXJuIHMuY29sdW1ucywgcy5saW5lcyAtIDMKCmRlZiBmcmFtZV90b19ncmlkKHBhdGgpOgogICAgZnJvbSBQSUwgaW1wb3J0IEltYWdlCiAgICB0dywgdGggPSB0ZXJtX3NpemUoKQogICAgaW1nID0gSW1hZ2Uub3BlbihwYXRoKS5jb252ZXJ0KCJMIikKICAgIG5ld19oID0gaW50KHR3ICogKGltZy5zaXplWzFdIC8gaW1nLnNpemVbMF0pICogMC41NSkKICAgIG5ld19oID0gbWluKG5ld19oLCB0aCkKICAgIGlmIG5ld19oID09IHRoOgogICAgICAgIHR3ID0gaW50KHRoIC8gMC41NSAvIChpbWcuc2l6ZVsxXSAvIGltZy5zaXplWzBdKSkKICAgIGltZyA9IGltZy5yZXNpemUoKHR3LCBuZXdfaCkpCiAgICBweCA9IGltZy5sb2FkKCkKICAgIHJldHVybiBbW0NIQVJTW21pbihweFt4LCB5XSAqIGxlbihDSEFSUykgLy8gMjU2LCBsZW4oQ0hBUlMpIC0gMSldCiAgICAgICAgICAgICBmb3IgeCBpbiByYW5nZSh0dyldIGZvciB5IGluIHJhbmdlKG5ld19oKV0KCmRlZiBmZm1wZWdfaW5wdXRfYXJncyhraW5kLCBzb3VyY2UpOgogICAgaWYga2luZCA9PSAidjRsMiI6CiAgICAgICAgcmV0dXJuIFsiLWYiLCAidjRsMiIsICItZnJhbWVyYXRlIiwgIjMwIiwgIi12aWRlb19zaXplIiwgIjEyODB4NzIwIiwKICAgICAgICAgICAgICAgICItaW5wdXRfZm9ybWF0IiwgIm1qcGVnIiwgIi1pIiwgc291cmNlXQogICAgcmV0dXJuIFsiLXJ0c3BfdHJhbnNwb3J0IiwgInRjcCIsICItaSIsIHNvdXJjZV0KCmRlZiBjYW1fd29ya2VyKGtpbmQsIHNvdXJjZSk6CiAgICBnbG9iYWwgYmFzZV9ncmlkLCBzdG9wX2ZsYWcKICAgIHRtcCA9ICIvdG1wL21hdHJpeC1jYW0tZnJhbWUuanBnIgogICAgZnBzID0gU0VUVElOR1NbImZlZWRfZnBzIl0KICAgIHdoaWxlIG5vdCBzdG9wX2ZsYWc6CiAgICAgICAgdHJ5OgogICAgICAgICAgICBwcm9jID0gc3VicHJvY2Vzcy5Qb3BlbigKICAgICAgICAgICAgICAgIFsiZmZtcGVnIiwgIi12IiwgImVycm9yIl0gKyBmZm1wZWdfaW5wdXRfYXJncyhraW5kLCBzb3VyY2UpICsKICAgICAgICAgICAgICAgIFsiLXZmIiwgZiJmcHM9e2Zwc30iLCAiLXE6diIsICIzIiwKICAgICAgICAgICAgICAgICAiLWYiLCAiaW1hZ2UycGlwZSIsICItdmNvZGVjIiwgIm1qcGVnIiwgIi0iXSwKICAgICAgICAgICAgICAgIHN0ZG91dD1zdWJwcm9jZXNzLlBJUEUsIHN0ZGVycj1zdWJwcm9jZXNzLkRFVk5VTEwpCiAgICAgICAgICAgIGJ1ZiA9IGIiIgogICAgICAgICAgICB3aGlsZSBub3Qgc3RvcF9mbGFnOgogICAgICAgICAgICAgICAgY2h1bmsgPSBwcm9jLnN0ZG91dC5yZWFkKDY1NTM2KQogICAgICAgICAgICAgICAgaWYgbm90IGNodW5rOgogICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICBidWYgKz0gY2h1bmsKICAgICAgICAgICAgICAgIHdoaWxlIFRydWU6CiAgICAgICAgICAgICAgICAgICAgcyA9IGJ1Zi5maW5kKGIiXHhmZlx4ZDgiKQogICAgICAgICAgICAgICAgICAgIGUgPSBidWYuZmluZChiIlx4ZmZceGQ5IiwgcyArIDIpCiAgICAgICAgICAgICAgICAgICAgaWYgcyA8IDAgb3IgZSA8IDA6CiAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICAgICAganBnID0gYnVmW3M6ZSArIDJdCiAgICAgICAgICAgICAgICAgICAgYnVmID0gYnVmW2UgKyAyOl0KICAgICAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgICAgIG9wZW4odG1wLCAid2IiKS53cml0ZShqcGcpCiAgICAgICAgICAgICAgICAgICAgICAgIGdyaWQgPSBmcmFtZV90b19ncmlkKHRtcCkKICAgICAgICAgICAgICAgICAgICAgICAgd2l0aCBncmlkX2xvY2s6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYXNlX2dyaWQgPSBncmlkCiAgICAgICAgICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgICAgICAgICAgcGFzcwogICAgICAgICAgICBwcm9jLnRlcm1pbmF0ZSgpCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHByb2Mud2FpdCh0aW1lb3V0PTUpCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgICAgICBwcm9jLmtpbGwoKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIHBhc3MKICAgICAgICB0aW1lLnNsZWVwKDEpCgpkZWYgc2NyYW1ibGVfcHJvYihkaXN0KToKICAgIHRyYWlsID0gU0VUVElOR1NbInRyYWlsIl0KICAgIGlmIGRpc3QgPCAwIG9yIGRpc3QgPiB0cmFpbDoKICAgICAgICByZXR1cm4gMC4wCiAgICByZXR1cm4gMC45MCAtIChkaXN0IC8gdHJhaWwpICogMC44NQoKZGVmIHJlbmRlcl9tYXRyaXgoZ3JpZCwgZHJvcHMpOgogICAgaCA9IGxlbihncmlkKQogICAgdyA9IGxlbihncmlkWzBdKSBpZiBoIGVsc2UgMAogICAgb3V0ID0gW10KICAgIGZvciB5IGluIHJhbmdlKGgpOgogICAgICAgIGxpbmUgPSBbXQogICAgICAgIGZvciB4IGluIHJhbmdlKHcpOgogICAgICAgICAgICBkID0gZHJvcHNbeF0gLSB5CiAgICAgICAgICAgIHAgPSBzY3JhbWJsZV9wcm9iKGQpCiAgICAgICAgICAgIGlmIHAgPiAwIGFuZCByYW5kb20ucmFuZG9tKCkgPCBwOgogICAgICAgICAgICAgICAgY2ggPSByYW5kb20uY2hvaWNlKE1BVFJJWF9DSEFSUykKICAgICAgICAgICAgICAgIGlmIGQgPT0gMDoKICAgICAgICAgICAgICAgICAgICBsaW5lLmFwcGVuZChmIntCUklHSFR9e2NofXtHUkVFTn0iKQogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICBsaW5lLmFwcGVuZChjaCkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGxpbmUuYXBwZW5kKGdyaWRbeV1beF0pCiAgICAgICAgb3V0LmFwcGVuZCgiIi5qb2luKGxpbmUpKQogICAgcmV0dXJuICJcbiIuam9pbihvdXQpCgpkZWYgb3B0aW9uc19tZW51KGNhbXMpOgogICAgd2hpbGUgVHJ1ZToKICAgICAgICBvcy5zeXN0ZW0oImNsZWFyIikKICAgICAgICBwcmludChmIntHUkVFTn09PT0gT1BUSU9OUyA9PT17UkVTRVR9XG4iKQogICAgICAgIHByaW50KGYiICAxLiBGZWVkIGZyYW1lIHJhdGUgICAgICBbe1NFVFRJTkdTWydmZWVkX2ZwcyddfSBmcHNdIikKICAgICAgICBwcmludChmIiAgMi4gUmFpbiBkZW5zaXR5ICAgICAgICAgW3tpbnQoU0VUVElOR1NbJ3JhaW5fZGVuc2l0eSddKjEwMCl9JV0iKQogICAgICAgIHByaW50KGYiICAzLiBUcmFpbCBsZW5ndGggICAgICAgICBbe1NFVFRJTkdTWyd0cmFpbCddfSBjaGFyc10iKQogICAgICAgIHByaW50KGYiICA0LiBSZW5hbWUgY2FtZXJhcyIpCiAgICAgICAgcHJpbnQoZiIgIDUuIEJhY2siKQogICAgICAgIHByaW50KCkKICAgICAgICB0cnk6CiAgICAgICAgICAgIGMgPSBpbnB1dCgiQ2hvb3NlOiAiKS5zdHJpcCgpCiAgICAgICAgZXhjZXB0IEVPRkVycm9yOgogICAgICAgICAgICByZXR1cm4KICAgICAgICBpZiBjID09ICIxIjoKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgdiA9IGludChpbnB1dChmIkZlZWQgZnBzICgxLTMwKSBbe1NFVFRJTkdTWydmZWVkX2ZwcyddfV06ICIpLnN0cmlwKCkgb3IgU0VUVElOR1NbImZlZWRfZnBzIl0pCiAgICAgICAgICAgICAgICBTRVRUSU5HU1siZmVlZF9mcHMiXSA9IG1heCgxLCBtaW4oMzAsIHYpKQogICAgICAgICAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICAgICAgICAgIHBhc3MKICAgICAgICBlbGlmIGMgPT0gIjIiOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICB2ID0gaW50KGlucHV0KGYiUmFpbiBkZW5zaXR5ICUgKDEwLTEwMCkgW3tpbnQoU0VUVElOR1NbJ3JhaW5fZGVuc2l0eSddKjEwMCl9XTogIikuc3RyaXAoKSBvciBpbnQoU0VUVElOR1NbInJhaW5fZGVuc2l0eSJdKjEwMCkpCiAgICAgICAgICAgICAgICBTRVRUSU5HU1sicmFpbl9kZW5zaXR5Il0gPSBtYXgoMC4xLCBtaW4oMS4wLCB2IC8gMTAwKSkKICAgICAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgICAgICBwYXNzCiAgICAgICAgZWxpZiBjID09ICIzIjoKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgdiA9IGludChpbnB1dChmIlRyYWlsIGxlbmd0aCAoMS0xNSkgW3tTRVRUSU5HU1sndHJhaWwnXX1dOiAiKS5zdHJpcCgpIG9yIFNFVFRJTkdTWyJ0cmFpbCJdKQogICAgICAgICAgICAgICAgU0VUVElOR1NbInRyYWlsIl0gPSBtYXgoMSwgbWluKDE1LCB2KSkKICAgICAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgICAgICBwYXNzCiAgICAgICAgZWxpZiBjID09ICI0IjoKICAgICAgICAgICAgcmVuYW1lX21lbnUoY2FtcykKICAgICAgICBlbGlmIGMgPT0gIjUiOgogICAgICAgICAgICBzYXZlX3NldHRpbmdzKFNFVFRJTkdTKQogICAgICAgICAgICByZXR1cm4KICAgICAgICBzYXZlX3NldHRpbmdzKFNFVFRJTkdTKQoKZGVmIHJlbmFtZV9tZW51KGNhbXMpOgogICAgbmFtZXMgPSBsaXN0KGNhbXMua2V5cygpKQogICAgd2hpbGUgVHJ1ZToKICAgICAgICBvcy5zeXN0ZW0oImNsZWFyIikKICAgICAgICBwcmludChmIntHUkVFTn09PT0gUkVOQU1FIENBTUVSQVMgKGFwcCBvbmx5KSA9PT17UkVTRVR9XG4iKQogICAgICAgIGZvciBpLCBuIGluIGVudW1lcmF0ZShuYW1lcywgMSk6CiAgICAgICAgICAgIHByaW50KGYiICB7aX0uIHtufSAtPiB7ZGlzcGxheV9uYW1lKG4pfSIpCiAgICAgICAgcHJpbnQoZiIgIHtsZW4obmFtZXMpKzF9LiBCYWNrIikKICAgICAgICBwcmludCgpCiAgICAgICAgdHJ5OgogICAgICAgICAgICBjID0gaW5wdXQoIkNob29zZSBjYW1lcmEgdG8gcmVuYW1lOiAiKS5zdHJpcCgpCiAgICAgICAgICAgIGlkeCA9IGludChjKSAtIDEKICAgICAgICAgICAgaWYgaWR4ID09IGxlbihuYW1lcyk6CiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgb2xkID0gbmFtZXNbaWR4XQogICAgICAgICAgICBuZXcgPSBpbnB1dChmIk5ldyBkaXNwbGF5IG5hbWUgZm9yICd7b2xkfScgW3tkaXNwbGF5X25hbWUob2xkKX1dOiAiKS5zdHJpcCgpCiAgICAgICAgICAgIGlmIG5ldzoKICAgICAgICAgICAgICAgIFNFVFRJTkdTWyJuYW1lcyJdW29sZF0gPSBuZXcKICAgICAgICAgICAgICAgIHNhdmVfc2V0dGluZ3MoU0VUVElOR1MpCiAgICAgICAgZXhjZXB0IChWYWx1ZUVycm9yLCBJbmRleEVycm9yLCBFT0ZFcnJvcik6CiAgICAgICAgICAgIHJldHVybgoKZGVmIHdhdGNoKG5hbWUsIGtpbmQsIHNvdXJjZSk6CiAgICBnbG9iYWwgc3RvcF9mbGFnLCBiYXNlX2dyaWQKICAgIHN0b3BfZmxhZyA9IEZhbHNlCiAgICBiYXNlX2dyaWQgPSBOb25lCiAgICBkbmFtZSA9IGRpc3BsYXlfbmFtZShuYW1lKQogICAgcHJpbnQoZiJcblN0YXJ0aW5nIHtkbmFtZX0uLi5cbiIpCgogICAgdG1wID0gIi90bXAvbWF0cml4LWNhbS1mcmFtZS5qcGciCiAgICB0cnk6CiAgICAgICAgc3VicHJvY2Vzcy5ydW4oWyJmZm1wZWciLCAiLXkiLCAiLXYiLCAiZXJyb3IiXSArIGZmbXBlZ19pbnB1dF9hcmdzKGtpbmQsIHNvdXJjZSkgKwogICAgICAgICAgICAgICAgICAgICAgIFsiLXZmcmFtZXMiLCAiMSIsICItcTp2IiwgIjMiLCB0bXBdLAogICAgICAgICAgICAgICAgICAgICAgIHRpbWVvdXQ9MjAsIGNhcHR1cmVfb3V0cHV0PVRydWUpCiAgICAgICAgYmFzZV9ncmlkID0gZnJhbWVfdG9fZ3JpZCh0bXApCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgcHJpbnQoZiJDb3VsZCBub3QgZ3JhYiBpbml0aWFsIGZyYW1lOiB7ZX0iKQogICAgICAgIHJldHVybgoKICAgIGgsIHcgPSBsZW4oYmFzZV9ncmlkKSwgbGVuKGJhc2VfZ3JpZFswXSkKICAgIGRlbnNpdHkgPSBTRVRUSU5HU1sicmFpbl9kZW5zaXR5Il0KICAgIGRyb3BzID0gW3JhbmRvbS5yYW5kaW50KDAsIGggLSAxKSBpZiByYW5kb20ucmFuZG9tKCkgPCBkZW5zaXR5IGVsc2UgLTEwMDAgZm9yIF8gaW4gcmFuZ2UodyldCiAgICBzcGVlZHMgPSBbcmFuZG9tLmNob2ljZShbMSwgMSwgMl0pIGZvciBfIGluIHJhbmdlKHcpXQoKICAgIHQgPSB0aHJlYWRpbmcuVGhyZWFkKHRhcmdldD1jYW1fd29ya2VyLCBhcmdzPShraW5kLCBzb3VyY2UpLCBkYWVtb249VHJ1ZSkKICAgIHQuc3RhcnQoKQoKICAgIGZyYW1lX3RpbWUgPSAxLjAgLyBSQUlOX0ZQUwogICAgdHJ5OgogICAgICAgIHdoaWxlIFRydWU6CiAgICAgICAgICAgIHQwID0gdGltZS50aW1lKCkKICAgICAgICAgICAgd2l0aCBncmlkX2xvY2s6CiAgICAgICAgICAgICAgICBncmlkID0gW3Jvd1s6XSBmb3Igcm93IGluIGJhc2VfZ3JpZF0gaWYgYmFzZV9ncmlkIGVsc2UgTm9uZQogICAgICAgICAgICBpZiBncmlkOgogICAgICAgICAgICAgICAgZ2gsIGd3ID0gbGVuKGdyaWQpLCBsZW4oZ3JpZFswXSkKICAgICAgICAgICAgICAgIGlmIGxlbihkcm9wcykgIT0gZ3c6CiAgICAgICAgICAgICAgICAgICAgZHJvcHMgPSBbcmFuZG9tLnJhbmRpbnQoMCwgZ2ggLSAxKSBpZiByYW5kb20ucmFuZG9tKCkgPCBkZW5zaXR5IGVsc2UgLTEwMDAgZm9yIF8gaW4gcmFuZ2UoZ3cpXQogICAgICAgICAgICAgICAgICAgIHNwZWVkcyA9IFtyYW5kb20uY2hvaWNlKFsxLCAxLCAyXSkgZm9yIF8gaW4gcmFuZ2UoZ3cpXQogICAgICAgICAgICAgICAgZm9yIHggaW4gcmFuZ2UoZ3cpOgogICAgICAgICAgICAgICAgICAgIGlmIGRyb3BzW3hdIDwgLTUwMDoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgcmFuZG9tLnJhbmRvbSgpIDwgMC4wMjoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRyb3BzW3hdID0gcmFuZG9tLnJhbmRpbnQoLVNFVFRJTkdTWyJ0cmFpbCJdLCAwKQogICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgICAgIGRyb3BzW3hdICs9IHNwZWVkc1t4XQogICAgICAgICAgICAgICAgICAgIGlmIGRyb3BzW3hdIC0gU0VUVElOR1NbInRyYWlsIl0gPiBnaDoKICAgICAgICAgICAgICAgICAgICAgICAgZHJvcHNbeF0gPSAtMTAwMCBpZiByYW5kb20ucmFuZG9tKCkgPiBkZW5zaXR5IGVsc2UgcmFuZG9tLnJhbmRpbnQoLVNFVFRJTkdTWyJ0cmFpbCJdLCAwKQogICAgICAgICAgICAgICAgICAgICAgICBzcGVlZHNbeF0gPSByYW5kb20uY2hvaWNlKFsxLCAxLCAyXSkKICAgICAgICAgICAgICAgIHN5cy5zdGRvdXQud3JpdGUoIlwwMzNbSCIpCiAgICAgICAgICAgICAgICBzeXMuc3Rkb3V0LndyaXRlKGYie0dSRUVOfT09PSB7ZG5hbWV9IChtYXRyaXggbGl2ZSkgPT09ICBDdHJsK0MgdG8gc3RvcFxuIikKICAgICAgICAgICAgICAgIHN5cy5zdGRvdXQud3JpdGUocmVuZGVyX21hdHJpeChncmlkLCBkcm9wcykpCiAgICAgICAgICAgICAgICBzeXMuc3Rkb3V0LndyaXRlKFJFU0VUKQogICAgICAgICAgICAgICAgc3lzLnN0ZG91dC5mbHVzaCgpCiAgICAgICAgICAgIGVsYXBzZWQgPSB0aW1lLnRpbWUoKSAtIHQwCiAgICAgICAgICAgIHRpbWUuc2xlZXAobWF4KDAsIGZyYW1lX3RpbWUgLSBlbGFwc2VkKSkKICAgIGV4Y2VwdCBLZXlib2FyZEludGVycnVwdDoKICAgICAgICBwYXNzCiAgICBmaW5hbGx5OgogICAgICAgIHN0b3BfZmxhZyA9IFRydWUKICAgICAgICBwcmludChmIntSRVNFVH1cblN0b3BwZWQuIikKCmRlZiBtYWluKCk6CiAgICBjYW1zID0gZ2V0X2NhbWVyYXMoKQogICAgaWYgbm90IGNhbXM6CiAgICAgICAgcHJpbnQoIk5vIGNhbWVyYXMgZm91bmQuIEFkZCBzb3VyY2VzIHRvIH4vLm1hdHJpeC1jYW0uanNvbiBvciBzZXQgRlJJR0FURV9DT05GSUcuIikKICAgICAgICBwcmludCgnRXhhbXBsZTogeyJzb3VyY2VzIjogeyJmcm9udCI6IHsia2luZCI6ICJydHNwIiwgInVybCI6ICJydHNwOi8vdXNlcjpwYXNzQGhvc3Qvc3RyZWFtIn19fScpCiAgICAgICAgcmV0dXJuCiAgICBuYW1lcyA9IGxpc3QoY2Ftcy5rZXlzKCkpCiAgICB3aGlsZSBUcnVlOgogICAgICAgIG9zLnN5c3RlbSgiY2xlYXIiKQogICAgICAgIHByaW50KGYie0dSRUVOfT09PSBNQVRSSVggQ0FNID09PXtSRVNFVH1cbiIpCiAgICAgICAgZm9yIGksIG4gaW4gZW51bWVyYXRlKG5hbWVzLCAxKToKICAgICAgICAgICAgcHJpbnQoZiIgIHtpfS4ge2Rpc3BsYXlfbmFtZShuKX0iKQogICAgICAgIHByaW50KGYiICB7bGVuKG5hbWVzKSsxfS4gT3B0aW9ucyIpCiAgICAgICAgcHJpbnQoZiIgIHtsZW4obmFtZXMpKzJ9LiBRdWl0IikKICAgICAgICBwcmludCgpCiAgICAgICAgdHJ5OgogICAgICAgICAgICBjID0gaW5wdXQoIkNob29zZTogIikuc3RyaXAoKQogICAgICAgICAgICBpZHggPSBpbnQoYykgLSAxCiAgICAgICAgZXhjZXB0IChWYWx1ZUVycm9yLCBFT0ZFcnJvcik6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgaWYgaWR4ID09IGxlbihuYW1lcyk6CiAgICAgICAgICAgIG9wdGlvbnNfbWVudShjYW1zKQogICAgICAgIGVsaWYgaWR4ID09IGxlbihuYW1lcykgKyAxOgogICAgICAgICAgICBwcmludCgiQnllLiIpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIGVsaWYgMCA8PSBpZHggPCBsZW4obmFtZXMpOgogICAgICAgICAgICBraW5kLCBzb3VyY2UgPSBjYW1zW25hbWVzW2lkeF1dCiAgICAgICAgICAgIHdhdGNoKG5hbWVzW2lkeF0sIGtpbmQsIHNvdXJjZSkKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+#!/usr/bin/env python3
+"""
+matrix-cam - Watch security cameras in Matrix-style ASCII art.
+
+Falling katakana rain over a live camera feed, rendered in your terminal.
+Supports RTSP network cameras and USB webcams (v4l2).
+Auto-detects Frigate NVR cameras or use manual sources.
+
+Usage: matrix-cam
+"""
+import subprocess, sys, os, re, time, random, threading, shutil, json
+
+SETTINGS_FILE = os.path.expanduser("~/.matrix-cam.json")
+CHARS = " .:-=+*#%@"
+MATRIX_CHARS = "ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝ0123456789$#@%&*+=<>?Z"
+RAIN_FPS = 10
+
+GREEN = "\033[92m"
+BRIGHT = "\033[97;1m"
+RESET = "\033[0m"
+
+DEFAULTS = {
+    "feed_fps": 5,
+    "rain_density": 0.7,
+    "trail": 5,
+    "mirror": True,
+    "names": {},
+    "frigate_config": "",
+    "sources": {},
+}
+
+def load_settings():
+    s = dict(DEFAULTS)
+    try:
+        s.update(json.load(open(SETTINGS_FILE)))
+    except Exception:
+        pass
+    return s
+
+def save_settings(s):
+    try:
+        json.dump(s, open(SETTINGS_FILE, "w"), indent=1)
+    except Exception:
+        pass
+
+SETTINGS = load_settings()
+
+base_grid = None
+grid_lock = threading.Lock()
+stop_flag = False
+
+def get_cameras():
+    """Return {name: (kind, source)}. Manual sources first, then Frigate auto-detect."""
+    cams = {}
+    # manual sources from settings
+    for name, src in SETTINGS.get("sources", {}).items():
+        kind = src.get("kind", "rtsp")
+        if kind == "rtsp" and src.get("url"):
+            cams[name] = ("rtsp", src["url"])
+        elif kind == "v4l2" and src.get("device"):
+            cams[name] = ("v4l2", src["device"])
+    # Frigate auto-detect
+    cfg = SETTINGS.get("frigate_config") or os.environ.get("FRIGATE_CONFIG", "")
+    if cfg and os.path.exists(cfg):
+        try:
+            txt = open(cfg).read()
+            m = re.search(r"go2rtc:\s*\n\s*streams:\s*\n((?:\s+\w+:.*\n(?:\s+- .*\n?)*)+)", txt)
+            if m:
+                for cm in re.finditer(r"^\s{4}(\w+):\s*\n\s+-\s+(rtsp://\S+)", m.group(1), re.M):
+                    if cm.group(1) not in cams:
+                        cams[cm.group(1)] = ("rtsp", cm.group(2))
+            cm2 = re.search(r"^cameras:\s*\n(.*?)(?=^[a-z_]+:\s*$|\Z)", txt, re.M | re.S)
+            if cm2:
+                blocks = re.split(r"(?m)^(?=  \w+:)", cm2.group(1))
+                for b in blocks:
+                    nm = re.match(r"  (\w+):", b)
+                    pm = re.search(r"/dev/v4l/\S+", b)
+                    if nm and pm and nm.group(1) not in cams:
+                        cams[nm.group(1)] = ("v4l2", pm.group(0))
+        except Exception as e:
+            print(f"Could not read Frigate config: {e}", file=sys.stderr)
+    return cams
+
+def display_name(name):
+    return SETTINGS["names"].get(name, name)
+
+def term_size():
+    s = shutil.get_terminal_size((200, 50))
+    return s.columns, s.lines - 3
+
+def frame_to_grid(path):
+    from PIL import Image
+    tw, th = term_size()
+    img = Image.open(path).convert("L")
+    new_h = int(tw * (img.size[1] / img.size[0]) * 0.55)
+    new_h = min(new_h, th)
+    if new_h == th:
+        tw = int(th / 0.55 / (img.size[1] / img.size[0]))
+    img = img.resize((tw, new_h))
+    px = img.load()
+    grid = [[CHARS[min(px[x, y] * len(CHARS) // 256, len(CHARS) - 1)]
+             for x in range(tw)] for y in range(new_h)]
+    if SETTINGS.get("mirror", True):
+        grid = [row[::-1] for row in grid]
+    return grid
+
+def ffmpeg_input_args(kind, source):
+    if kind == "v4l2":
+        return ["-f", "v4l2", "-framerate", "30", "-video_size", "1280x720",
+                "-input_format", "mjpeg", "-i", source]
+    return ["-rtsp_transport", "tcp", "-i", source]
+
+def cam_worker(kind, source):
+    global base_grid, stop_flag
+    tmp = "/tmp/matrix-cam-frame.jpg"
+    fps = SETTINGS["feed_fps"]
+    while not stop_flag:
+        try:
+            proc = subprocess.Popen(
+                ["ffmpeg", "-v", "error"] + ffmpeg_input_args(kind, source) +
+                ["-vf", f"fps={fps}", "-q:v", "3",
+                 "-f", "image2pipe", "-vcodec", "mjpeg", "-"],
+                stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
+            buf = b""
+            while not stop_flag:
+                chunk = proc.stdout.read(65536)
+                if not chunk:
+                    break
+                buf += chunk
+                while True:
+                    s = buf.find(b"\xff\xd8")
+                    e = buf.find(b"\xff\xd9", s + 2)
+                    if s < 0 or e < 0:
+                        break
+                    jpg = buf[s:e + 2]
+                    buf = buf[e + 2:]
+                    try:
+                        open(tmp, "wb").write(jpg)
+                        grid = frame_to_grid(tmp)
+                        with grid_lock:
+                            base_grid = grid
+                    except Exception:
+                        pass
+            proc.terminate()
+            try:
+                proc.wait(timeout=5)
+            except Exception:
+                proc.kill()
+        except Exception:
+            pass
+        time.sleep(1)
+
+def scramble_prob(dist):
+    trail = SETTINGS["trail"]
+    if dist < 0 or dist > trail:
+        return 0.0
+    return 0.90 - (dist / trail) * 0.85
+
+def render_matrix(grid, drops):
+    h = len(grid)
+    w = len(grid[0]) if h else 0
+    out = []
+    for y in range(h):
+        line = []
+        for x in range(w):
+            d = drops[x] - y
+            p = scramble_prob(d)
+            if p > 0 and random.random() < p:
+                ch = random.choice(MATRIX_CHARS)
+                if d == 0:
+                    line.append(f"{BRIGHT}{ch}{GREEN}")
+                else:
+                    line.append(ch)
+            else:
+                line.append(grid[y][x])
+        out.append("".join(line))
+    return "\n".join(out)
+
+def options_menu(cams):
+    while True:
+        os.system("clear")
+        print(f"{GREEN}=== OPTIONS ==={RESET}\n")
+        print(f"  1. Feed frame rate      [{SETTINGS['feed_fps']} fps]")
+        print(f"  2. Rain density         [{int(SETTINGS['rain_density']*100)}%]")
+        print(f"  3. Trail length         [{SETTINGS['trail']} chars]")
+        print(f"  4. Mirror image         [{'On' if SETTINGS.get('mirror', True) else 'Off'}]")
+        print(f"  5. Rename cameras")
+        print(f"  6. Back")
+        print()
+        try:
+            c = input("Choose: ").strip()
+        except EOFError:
+            return
+        if c == "1":
+            try:
+                v = int(input(f"Feed fps (1-30) [{SETTINGS['feed_fps']}]: ").strip() or SETTINGS["feed_fps"])
+                SETTINGS["feed_fps"] = max(1, min(30, v))
+            except ValueError:
+                pass
+        elif c == "2":
+            try:
+                v = int(input(f"Rain density % (10-100) [{int(SETTINGS['rain_density']*100)}]: ").strip() or int(SETTINGS["rain_density"]*100))
+                SETTINGS["rain_density"] = max(0.1, min(1.0, v / 100))
+            except ValueError:
+                pass
+        elif c == "3":
+            try:
+                v = int(input(f"Trail length (1-15) [{SETTINGS['trail']}]: ").strip() or SETTINGS["trail"])
+                SETTINGS["trail"] = max(1, min(15, v))
+            except ValueError:
+                pass
+        elif c == "4":
+            SETTINGS["mirror"] = not SETTINGS.get("mirror", True)
+        elif c == "5":
+            rename_menu(cams)
+        elif c == "6":
+            save_settings(SETTINGS)
+            return
+        save_settings(SETTINGS)
+
+def rename_menu(cams):
+    names = list(cams.keys())
+    while True:
+        os.system("clear")
+        print(f"{GREEN}=== RENAME CAMERAS (app only) ==={RESET}\n")
+        for i, n in enumerate(names, 1):
+            print(f"  {i}. {n} -> {display_name(n)}")
+        print(f"  {len(names)+1}. Back")
+        print()
+        try:
+            c = input("Choose camera to rename: ").strip()
+            idx = int(c) - 1
+            if idx == len(names):
+                return
+            old = names[idx]
+            new = input(f"New display name for '{old}' [{display_name(old)}]: ").strip()
+            if new:
+                SETTINGS["names"][old] = new
+                save_settings(SETTINGS)
+        except (ValueError, IndexError, EOFError):
+            return
+
+def watch(name, kind, source):
+    global stop_flag, base_grid
+    stop_flag = False
+    base_grid = None
+    dname = display_name(name)
+    print(f"\nStarting {dname}...\n")
+
+    tmp = "/tmp/matrix-cam-frame.jpg"
+    try:
+        subprocess.run(["ffmpeg", "-y", "-v", "error"] + ffmpeg_input_args(kind, source) +
+                       ["-vframes", "1", "-q:v", "3", tmp],
+                       timeout=20, capture_output=True)
+        base_grid = frame_to_grid(tmp)
+    except Exception as e:
+        print(f"Could not grab initial frame: {e}")
+        return
+
+    h, w = len(base_grid), len(base_grid[0])
+    density = SETTINGS["rain_density"]
+    drops = [random.randint(0, h - 1) if random.random() < density else -1000 for _ in range(w)]
+    speeds = [random.choice([1, 1, 2]) for _ in range(w)]
+
+    t = threading.Thread(target=cam_worker, args=(kind, source), daemon=True)
+    t.start()
+
+    frame_time = 1.0 / RAIN_FPS
+    try:
+        while True:
+            t0 = time.time()
+            with grid_lock:
+                grid = [row[:] for row in base_grid] if base_grid else None
+            if grid:
+                gh, gw = len(grid), len(grid[0])
+                if len(drops) != gw:
+                    drops = [random.randint(0, gh - 1) if random.random() < density else -1000 for _ in range(gw)]
+                    speeds = [random.choice([1, 1, 2]) for _ in range(gw)]
+                for x in range(gw):
+                    if drops[x] < -500:
+                        if random.random() < 0.02:
+                            drops[x] = random.randint(-SETTINGS["trail"], 0)
+                        continue
+                    drops[x] += speeds[x]
+                    if drops[x] - SETTINGS["trail"] > gh:
+                        drops[x] = -1000 if random.random() > density else random.randint(-SETTINGS["trail"], 0)
+                        speeds[x] = random.choice([1, 1, 2])
+                sys.stdout.write("\033[H")
+                sys.stdout.write(f"{GREEN}=== {dname} (matrix live) ===  Ctrl+C to stop\n")
+                sys.stdout.write(render_matrix(grid, drops))
+                sys.stdout.write(RESET)
+                sys.stdout.flush()
+            elapsed = time.time() - t0
+            time.sleep(max(0, frame_time - elapsed))
+    except KeyboardInterrupt:
+        pass
+    finally:
+        stop_flag = True
+        print(f"{RESET}\nStopped.")
+
+def main():
+    cams = get_cameras()
+    if not cams:
+        print("No cameras found. Add sources to ~/.matrix-cam.json or set FRIGATE_CONFIG.")
+        print('Example: {"sources": {"front": {"kind": "rtsp", "url": "rtsp://user:pass@host/stream"}}}')
+        return
+    names = list(cams.keys())
+    while True:
+        os.system("clear")
+        print(f"{GREEN}=== MATRIX CAM ==={RESET}\n")
+        for i, n in enumerate(names, 1):
+            print(f"  {i}. {display_name(n)}")
+        print(f"  {len(names)+1}. Options")
+        print(f"  {len(names)+2}. Quit")
+        print()
+        try:
+            c = input("Choose: ").strip()
+            idx = int(c) - 1
+        except (ValueError, EOFError):
+            continue
+        if idx == len(names):
+            options_menu(cams)
+        elif idx == len(names) + 1:
+            print("Bye.")
+            return
+        elif 0 <= idx < len(names):
+            kind, source = cams[names[idx]]
+            watch(names[idx], kind, source)
+
+if __name__ == "__main__":
+    main()

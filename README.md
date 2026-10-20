@@ -1,1 +1,61 @@
-IyBNYXRyaXggQ2FtCgpXYXRjaCB5b3VyIHNlY3VyaXR5IGNhbWVyYXMgaW4gTWF0cml4LXN0eWxlIEFTQ0lJIGFydC4gRmFsbGluZyBrYXRha2FuYSByYWluIG92ZXIgYSBsaXZlIGNhbWVyYSBmZWVkLCByZW5kZXJlZCBpbiB5b3VyIHRlcm1pbmFsLgoKIVtkZW1vXShkZW1vLmdpZikKCiMjIEZlYXR1cmVzCgotIExpdmUgY2FtZXJhIGZlZWRzIHJlbmRlcmVkIGFzIEFTQ0lJIGFydCB3aXRoIE1hdHJpeCBkaWdpdGFsIHJhaW4gb3ZlcmxheQotIFJhaW4gYW5pbWF0ZXMgYXQgMTBmcHMgaW5kZXBlbmRlbnRseSBvZiBjYW1lcmEgcmVmcmVzaAotIFN1cHBvcnRzIFJUU1AgbmV0d29yayBjYW1lcmFzIGFuZCBVU0Igd2ViY2FtcyAodjRsMikKLSBDb25maWd1cmFibGU6IGZlZWQgZnJhbWUgcmF0ZSwgcmFpbiBkZW5zaXR5LCB0cmFpbCBsZW5ndGgsIGNhbWVyYSBkaXNwbGF5IG5hbWVzCi0gQXV0by1kZXRlY3RzIEZyaWdhdGUgTlZSIGNhbWVyYXMsIG9yIGRlZmluZSBzb3VyY2VzIG1hbnVhbGx5CgojIyBSZXF1aXJlbWVudHMKCi0gUHl0aG9uIDMuOCsKLSBgZmZtcGVnYCBpbiBQQVRICi0gYHBpbGxvd2AgKGBwaXAgaW5zdGFsbCBwaWxsb3dgKQoKIyMgSW5zdGFsbAoKYGBgYmFzaApzdWRvIGNwIG1hdHJpeC1jYW0gL3Vzci9sb2NhbC9iaW4vbWF0cml4LWNhbQpzdWRvIGNobW9kICt4IC91c3IvbG9jYWwvYmluL21hdHJpeC1jYW0KYGBgCgojIyBVc2FnZQoKYGBgYmFzaApzdWRvIG1hdHJpeC1jYW0KYGBgCgpQaWNrIGEgY2FtZXJhIGZyb20gdGhlIG1lbnUuIFByZXNzIEN0cmwrQyB0byBzdG9wLgoKIyMjIE9wdGlvbnMgbWVudQoKLSAqKkZlZWQgZnJhbWUgcmF0ZSoqIOKAlCBjYW1lcmEgcmVmcmVzaCByYXRlLCAxLTMwIGZwcyAoZGVmYXVsdCA1KQotICoqUmFpbiBkZW5zaXR5Kiog4oCUICUgb2YgY29sdW1ucyB3aXRoIGFjdGl2ZSByYWluIChkZWZhdWx0IDcwJSkKLSAqKlRyYWlsIGxlbmd0aCoqIOKAlCBjaGFyYWN0ZXJzIGluIGVhY2ggcmFpbiB0cmFpbCAoZGVmYXVsdCA1KQotICoqUmVuYW1lIGNhbWVyYXMqKiDigJQgZGlzcGxheSBuYW1lcywgYXBwLW9ubHkKClNldHRpbmdzIHNhdmUgdG8gYH4vLm1hdHJpeC1jYW0uanNvbmAuCgojIyBDYW1lcmEgc291cmNlcwoKQnkgZGVmYXVsdCwgY2FtZXJhcyBhcmUgYXV0by1kZXRlY3RlZCBmcm9tIHlvdXIgRnJpZ2F0ZSBjb25maWcgKGBjb25maWcueW1sYCBwYXRoIGNvbmZpZ3VyYWJsZSkuIFlvdSBjYW4gYWxzbyBkZWZpbmUgc291cmNlcyBtYW51YWxseSBpbiBgfi8ubWF0cml4LWNhbS5qc29uYDoKCmBgYGpzb24KewogICJzb3VyY2VzIjogewogICAgImZyb250X2Rvb3IiOiB7ImtpbmQiOiAicnRzcCIsICJ1cmwiOiAicnRzcDovL3VzZXI6cGFzc0AxOTIuMTY4LjEuMTA6NTU0L3N0cmVhbSJ9LAogICAgIndlYmNhbSI6IHsia2luZCI6ICJ2NGwyIiwgImRldmljZSI6ICIvZGV2L3ZpZGVvMCJ9CiAgfQp9CmBgYAoKIyMgTGljZW5zZQoKTUlUCg==
+# Matrix Cam
+
+Watch your security cameras in Matrix-style ASCII art. Falling katakana rain over a live camera feed, rendered in your terminal.
+
+![demo](demo.gif)
+
+## Features
+
+- Live camera feeds rendered as ASCII art with Matrix digital rain overlay
+- Rain animates at 10fps independently of camera refresh
+- Supports RTSP network cameras and USB webcams (v4l2)
+- Configurable: feed frame rate, rain density, trail length, mirror image, camera display names
+- Auto-detects Frigate NVR cameras, or define sources manually
+
+## Requirements
+
+- Python 3.8+
+- `ffmpeg` in PATH
+- `pillow` (`pip install pillow`)
+
+## Install
+
+```bash
+sudo cp matrix-cam /usr/local/bin/matrix-cam
+sudo chmod +x /usr/local/bin/matrix-cam
+```
+
+## Usage
+
+```bash
+sudo matrix-cam
+```
+
+Pick a camera from the menu. Press Ctrl+C to stop.
+
+### Options menu
+
+- **Feed frame rate** — camera refresh rate, 1-30 fps (default 5)
+- **Rain density** — % of columns with active rain (default 70%)
+- **Trail length** — characters in each rain trail (default 5)
+- **Mirror image** — flip the feed horizontally (default **On**)
+- **Rename cameras** — display names, app-only
+
+Settings save to `~/.matrix-cam.json`.
+
+## Camera sources
+
+By default, cameras are auto-detected from your Frigate config (`config.yml` path configurable). You can also define sources manually in `~/.matrix-cam.json`:
+
+```json
+{
+  "sources": {
+    "front_door": {"kind": "rtsp", "url": "rtsp://user:pass@192.168.1.10:554/stream"},
+    "webcam": {"kind": "v4l2", "device": "/dev/video0"}
+  }
+}
+```
+
+## License
+
+MIT
